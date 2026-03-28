@@ -1,0 +1,31 @@
+{
+  "name": "edgeservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenson-wandie/symtech-autos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lenson-wandie/symtech-autos/issues"
+  },
+  "homepage": "https://github.com/lenson-wandie/symtech-autos#readme",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pnpm": "^10.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
